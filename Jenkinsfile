@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo "Cloning repository..."
+                echo "Cloning the repository..."
                 git branch: 'main', url: 'https://github.com/dayakr09-cyber/for-pipeline.git'
             }
         }
