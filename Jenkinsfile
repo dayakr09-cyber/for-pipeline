@@ -27,7 +27,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo "Running unit tests....."
+                echo "Running units tests.."
                 sh 'echo mvn test'
             }
         }
